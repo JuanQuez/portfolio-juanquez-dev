@@ -1,0 +1,355 @@
+:root {
+  /* FONTS */
+  --font-title: Star;
+  --font-subtitle: Kemco;
+  --font-subtitle-2: ReGame;
+  --font-subtitle-3: Rygar;
+  --font-subtitle-4: Digi;
+  --font-text: Basis;
+  --font-text-2: Silk;
+
+  /* BASE COLORS */
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* PALETTE COLORS */
+  --color-primary: #283242;
+  --color-secondary: #5ce1e6;
+
+  /* SHADES COLORS */
+  --color-shade-primary: #405670;
+  --color-shade-primary-2: #587598;
+  --color-shade-primary-3: #314054;
+  --color-shade-secondary: #27c6d9;
+  --color-shade-secondary-2: #4ebfc5;
+
+  /* SHADOW VARIANT COLORS */
+  --color-shadow-secondary: rgba(92, 225, 230, 0.8);
+  --color-shadow-secondary-2: rgba(92, 225, 230, 0.5);
+  --color-shadow-secondary-off: rgba(45, 113, 115, 1);
+  --color-shadow-white-off: rgb(107, 107, 107);
+
+  /* BACKGROUNDS & TEXTURES */
+  --background-main: url(/public/assets/image/global/background-main/background_pixel_porfolio.png);
+  --texture-wall: url(/public/assets/image/wrapper-image/wall-pixel.jpg);
+  --texture-wall-2: url(/public/assets/image/wrapper-images/wall-urban-pixel.png);
+  --texture-main-slide: url(/public/assets/image/project-image/wall-shadow-pixel.png);
+
+  /* GLOBAL ANIMATIONS */
+  --animation-text-in: neonAnimation;
+  --animation-flicker: flickerAnimation;
+
+  /* CURSORS THEME CUSTOM */
+  --cursor-arrow: url(/public/assets/image/global/pointers/pixel_arrow_juan_quez_version.png);
+  --cursor-pointer: url(/public/assets/image/global/pointers/pixel_pointer_juan_quez_version.png);
+
+  --cursor-text: url(/public/assets/image/global/pointers/pixel_text_juan_quez_version.png);
+
+  color-scheme: none;
+}
+
+/* RESET PORPERTIES BROWSER & CUSTOM GLOBAL STYLES*/
+* {
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+section,
+header {
+  position: relative;
+  z-index: 1;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  /* main background */
+  background: var(--background-main) center/cover no-repeat;
+  /* global cursor custom */
+  cursor: var(--cursor-arrow), default;
+}
+
+h1 {
+  font-family: var(--font-title);
+}
+
+h2 {
+  font-family: var(--font-subtitle);
+}
+
+h3 {
+  font-family: var(--font-subtitle-4);
+}
+
+h4,
+button,
+span {
+  font-family: var(--font-subtitle-3);
+  text-transform: uppercase;
+}
+
+a,
+li {
+  font-family: var(--font-subtitle-2);
+}
+
+p,
+input,
+textarea,
+::placeholder {
+  font-family: var(--font-text);
+}
+
+/* ELEMENTS BROWSER STYLES OFF */
+p {
+  word-wrap: break-word;
+}
+
+a {
+  text-decoration: none;
+}
+
+svg {
+  display: block;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+h3,
+a,
+input,
+textarea {
+  letter-spacing: 0.05em;
+}
+
+img,
+svg,
+button {
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+button {
+  border: none;
+}
+
+input,
+textarea:focus {
+  outline: none;
+}
+
+textarea {
+  resize: none;
+}
+
+/* CUSTOM CURSOR OTHERS ELEMENTS */
+button,
+a {
+  cursor: var(--cursor-pointer), pointer;
+}
+
+input,
+textarea {
+  cursor: var(--cursor-text), text;
+}
+
+/* <-- SOURCES GLOBALS STYLES --> /*
+
+/* CUSTOM URL FONTS */
+@font-face {
+  font-family: Star;
+  src: url(/public/assets/font/title/star-force.ttf);
+}
+@font-face {
+  font-family: Digi;
+  src: url(/public/assets/font/title/PixelDigivolve-mOm9.ttf);
+}
+@font-face {
+  font-family: ReGame;
+  src: url(/public/assets/font/title/RetroGaming.ttf);
+}
+@font-face {
+  font-family: Basis;
+  src: url(/public/assets/font/text/basis33.regular.ttf);
+}
+@font-face {
+  font-family: Silk;
+  src: url(/public/assets/font/text/Silkscreen-Regular.ttf);
+}
+@font-face {
+  font-family: Kemco;
+  src: url(/public/assets/font/title/kemco-pixel.ttf);
+}
+@font-face {
+  font-family: Rygar;
+  src: url(/public/assets/font/button/RygardeRegular-rKWp.ttf);
+}
+
+/* SOURCE ANIMATIONS */
+@keyframes flickerAnimation {
+  0% {
+    opacity: 1;
+  }
+  0.1%,
+  10%,
+  10.1%,
+  10.2%,
+  20%,
+  20.6%,
+  30%,
+  30.6%,
+  45%,
+  55.1%,
+  57%,
+  60.1%,
+  65%,
+  75.1%,
+  77%,
+  85.1%,
+  85% {
+    opacity: 0;
+    text-shadow: none;
+  }
+  20.1% {
+    opacity: 1;
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.1);
+  }
+  30.1%,
+  30.5%,
+  45.1%,
+  50%,
+  55%,
+  57.1%,
+  60% {
+    opacity: 1;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.25),
+      0 0 60px rgba(255, 255, 255, 0.02);
+  }
+  65.1%,
+  75% {
+    opacity: 1;
+    text-shadow: 0 0 10px var(--color-shadow-secondary-2),
+      0 0 60px rgba(255, 255, 255, 0.05), 0 0 100px rgba(255, 255, 255, 0.1);
+  }
+  77.1%,
+  85%,
+  86.1%,
+  100% {
+    opacity: 1;
+    color: var(--color-secondary);
+    -webkit-text-stroke-color: var(--color-white);
+    text-shadow: 0 0 15px var(--color-shadow-secondary),
+      0 0 60px rgba(255, 255, 255, 0.1), 0 0 110px rgba(255, 255, 255, 0.1),
+      0 0 100px rgba(0, 238, 255, 0.1);
+  }
+}
+
+@keyframes neonAnimation {
+  0% {
+    opacity: 0;
+  }
+  10% {
+    opacity: 0;
+  }
+  10.1% {
+    opacity: 1;
+  }
+  10.2% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 0;
+  }
+  20.1% {
+    opacity: 1;
+  }
+  20.6% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  30.1% {
+    opacity: 1;
+  }
+  30.5% {
+    opacity: 1;
+  }
+  30.6% {
+    opacity: 0;
+  }
+  45% {
+    opacity: 0;
+  }
+  45.1% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 1;
+  }
+  55.1% {
+    opacity: 0;
+  }
+  57% {
+    opacity: 0;
+  }
+  57.1% {
+    opacity: 1;
+  }
+  60% {
+    opacity: 1;
+  }
+  60.1% {
+    opacity: 0;
+  }
+  65% {
+    opacity: 0;
+  }
+  65.1% {
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  75.1% {
+    opacity: 0;
+  }
+  77% {
+    opacity: 0;
+  }
+  77.1% {
+    opacity: 1;
+  }
+  85% {
+    opacity: 1;
+  }
+  85.1% {
+    opacity: 0;
+  }
+  86% {
+    opacity: 0;
+  }
+  86.1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,48 @@
+[
+  {
+    "background": "/assets/image/project-image/maracucho-banner.png",
+    "title": "maracucho grill house",
+    "description": "Maracucho Grill House es una aplicación web creada para un restaurante en españa con temática venezolana. Utiliza tecnologías modernas para ofrecer una experiencia de usuario fluida y atractiva, incluyendo un sistema de pedidos en línea, cambios de idioma y un menú interactivo. La interfaz es intuitiva y responsiva, asegurando que los usuarios puedan navegar fácilmente desde cualquier dispositivo. La alta valoración y las más de 1500 reseñas positivas reflejan la eficiencia y calidad del desarrollo del proyecto.",
+    "technologies": [
+      "/assets/svg/skill-svg/window-items/tech-skills/framer-motion-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/sequelize-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/node-js-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/javascript-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/mysql-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/styled-components-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/css-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/react-logo.svg"
+    ],
+    "urlRef": "",
+    "status": "en mantenimiento"
+  },
+  {
+    "background": "/assets/image/project-image/sea-you-banner.png",
+    "title": "sea you",
+    "description": "Sea You es una aplicación web para la academia francesa de surf y deportes extremos más conocida de Barcelona. El proyecto incluye un sistema de gestión de clases y reservas, perfiles de usuarios y una galería multimedia. Utiliza una combinación de tecnologías avanzadas para asegurar una experiencia de usuario óptima y una gestión eficiente por parte de los administradores de la academia. La aplicación ha sido diseñada para ser altamente intuitiva y accesible, lo que contribuye a su reputación como el mejor lugar para deportes acuáticos del Passeig del Mare Nostrum.",
+    "technologies": [
+      "/assets/svg/skill-svg/window-items/tech-skills/framer-motion-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/sass-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/javascript-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/sequelize-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/node-js-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/next.js-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/mysql-logo.svg"
+    ],
+    "urlRef": "",
+    "status": "en mantenimiento"
+  },
+  {
+    "background": "/assets/image/project-image/weather-app-banner.png",
+    "title": "weather time",
+    "description": "Weather time es una aplicación creada para proporcionar datos meteorológicos precisos de su ubicación y en tiempo real. Utiliza tecnologías modernas para ofrecer una UI atractiva, incluyendo pronósticos detallados y visualizaciones interactivas del clima. La interfaz es intuitiva y responsiva, asegurando que los usuarios puedan acceder a la información de manera fácil y rápida desde cualquier dispositivo. El diseño estético y funcional de la interfaz refleja el cuidado y la atención al detalle en el desarrollo del proyecto. Fue de los proyectos pioneros de Juan Quez.",
+    "technologies": [
+      "/assets/svg/skill-svg/window-items/tech-skills/javascript-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/styled-components-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/react-logo.svg",
+      "/assets/svg/skill-svg/window-items/tech-skills/css-logo.svg"
+    ],
+    "urlRef": "https://weatherapp-byjuanquez.netlify.app/",
+    "status": "ver proyecto"
+  }
+]

@@ -1,0 +1,140 @@
+[
+  {
+    "skillTitle": "habilidades tecnicas",
+    "item": [
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/html-logo.svg",
+        "name": "html"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/css-logo.svg",
+        "name": "css"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/javascript-logo.svg",
+        "name": "javascript"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/react-logo.svg",
+        "name": "react"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/next.js-logo.svg",
+        "name": "next"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/java-logo.svg",
+        "name": "java"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/styled-components-logo.svg",
+        "name": "styled components"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/sass-logo.svg",
+        "name": "sass"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/tailwind-logo.svg",
+        "name": "tailwind"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/bootstrap-logo.svg",
+        "name": "bootstrap"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/framer-motion-logo.svg",
+        "name": "framer motion"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/git-logo.svg",
+        "name": "git"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/github-logo.svg",
+        "name": "github"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/npm-logo.svg",
+        "name": "npm"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/node-js-logo.svg",
+        "name": "node js"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/postgresql-logo.svg",
+        "name": "postgreSQL"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/mysql-logo.svg",
+        "name": "MySQL"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/sequelize-logo.svg",
+        "name": "sequelize"
+      }
+    ]
+  },
+  {
+    "skillTitle": "habilidades blandas",
+    "item": [
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/scrum-master-icon-pixel.svg",
+        "name": "S.O.L.I.D"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/business-pixel-icon.svg",
+        "name": "business hability"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/resolution-pixel-icon.svg",
+        "name": "resolución Fix"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/adaptability-pixel-icon.svg",
+        "name": "adaptabilidad"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/creative-pixel-icon.svg",
+        "name": "creatividad"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/organization-icon-pixel.svg",
+        "name": "organización"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/fast-pixel-icon.svg",
+        "name": "rapido aprendizaje"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/autonomy-pixel-icon.svg",
+        "name": "autonomia"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/resilience-pixel-icon.svg",
+        "name": "resiliencia"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/etic-pixel-icon.svg",
+        "name": "etica laboral"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/intelligence-pixel-icon.svg",
+        "name": "inteligencia emocional"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/practics-pixel-icon.svg",
+        "name": "buenas practicas"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/team-work-pixel-icon.svg",
+        "name": "trabajo en equipo"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/soft-skills/leader-pixel-icon.svg",
+        "name": "lider juvenil"
+      }
+    ]
+  }
+]
