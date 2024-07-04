@@ -288,24 +288,6 @@ const ContactBox = styled.section`
             scale: 1.05;
           }
         }
-
-        .linkedin_icon {
-          &:hover {
-            content: url(${LinkedinIconFrame});
-          }
-        }
-
-        .instagram_icon {
-          &:hover {
-            content: url(${InstagramIconFrame});
-          }
-        }
-
-        .discord_icon {
-          &:hover {
-            content: url(${DiscordIconFrame});
-          }
-        }
       }
     }
 

@@ -1,8 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import styled from "styled-components";
-import BackgroundSong from "/assets/audio/general-song/jupiter-song.mp3";
-import HoverSound from "/assets/audio/buttons-sounds/hover-selection-arcade.mp3";
-import ClickSound from "/assets/audio/buttons-sounds/active-selection-arcade.mp3";
+import BackgroundSongMp3 from "/assets/audio/general-song/mp3/jupiter-song.mp3";
+import BackgroundSongOgg from "/assets/audio/general-song/ogg/jupiter-song.ogg";
+import BackgroundSongAac from "/assets/audio/general-song/aac/jupiter-song.aac";
+import HoverSound from "/assets/audio/buttons-sounds/mp3/hover-selection-arcade.mp3";
+import ClickSound from "/assets/audio/buttons-sounds/mp3/active-selection-arcade.mp3";
 
 const Song = styled.div`
   display: none;
@@ -20,7 +22,9 @@ const Soundtrack = () => {
   return (
     <Song>
       <audio ref={audioRef} autoPlay loop>
-        <source src={BackgroundSong} type="audio/mp3" />
+        <source src={BackgroundSongMp3} type="audio/mp3" />
+        <source src={BackgroundSongOgg} type="audio/ogg" />
+        <source src={BackgroundSongAac} type="audio/aac" />
         Your browser not support the audio element of this page
       </audio>
     </Song>

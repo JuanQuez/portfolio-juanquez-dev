@@ -30,20 +30,20 @@
   --color-shadow-white-off: rgb(107, 107, 107);
 
   /* BACKGROUNDS & TEXTURES */
-  --background-main: url(/public/assets/image/global/background-main/background_pixel_porfolio.png);
-  --texture-wall: url(/public/assets/image/wrapper-image/wall-pixel.jpg);
-  --texture-wall-2: url(/public/assets/image/wrapper-images/wall-urban-pixel.png);
-  --texture-main-slide: url(/public/assets/image/project-image/wall-shadow-pixel.png);
+  --background-main: url(/public/assets/image/global/background-main/background_pixel_porfolio.webp);
+  --texture-wall: url(/public/assets/image/wrapper-image/wall-pixel.webp);
+  --texture-wall-2: url(/public/assets/image/wrapper-images/wall-urban-pixel.webp);
+  --texture-main-slide: url(/public/assets/image/project-image/wall-shadow-pixel.webp);
 
   /* GLOBAL ANIMATIONS */
   --animation-text-in: neonAnimation;
   --animation-flicker: flickerAnimation;
 
   /* CURSORS THEME CUSTOM */
-  --cursor-arrow: url(/public/assets/image/global/pointers/pixel_arrow_juan_quez_version.png);
-  --cursor-pointer: url(/public/assets/image/global/pointers/pixel_pointer_juan_quez_version.png);
+  --cursor-arrow: url(/public/assets/image/global/pointers/pixel_arrow_juan_quez_version.webp);
+  --cursor-pointer: url(/public/assets/image/global/pointers/pixel_pointer_juan_quez_version.webp);
 
-  --cursor-text: url(/public/assets/image/global/pointers/pixel_text_juan_quez_version.png);
+  --cursor-text: url(/public/assets/image/global/pointers/pixel_text_juan_quez_version.webp);
 
   color-scheme: none;
 }
@@ -172,31 +172,52 @@ textarea {
 /* CUSTOM URL FONTS */
 @font-face {
   font-family: Star;
-  src: url(/public/assets/font/title/star-force.ttf);
+  src: url(/public/assets/font/title/G7StarForce.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: Digi;
-  src: url(/public/assets/font/title/PixelDigivolve-mOm9.ttf);
+  src: url(/public/assets/font/title/PixelDigivolve.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: ReGame;
-  src: url(/public/assets/font/title/RetroGaming.ttf);
+  src: url(/public/assets/font/title/RetroGaming.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: Basis;
-  src: url(/public/assets/font/text/basis33.regular.ttf);
+  src: url(/public/assets/font/text/basis33.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
-@font-face {
+@font-face {  
   font-family: Silk;
-  src: url(/public/assets/font/text/Silkscreen-Regular.ttf);
+  src: url(/public/assets/font/text/Silkscreen.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: Kemco;
-  src: url(/public/assets/font/title/kemco-pixel.ttf);
+  src: url(/public/assets/font/title/KemcoPixelBold.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: Rygar;
-  src: url(/public/assets/font/button/RygardeRegular-rKWp.ttf);
+  src: url(/public/assets/font/button/Rygarde.woff2) format('woff2');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 /* SOURCE ANIMATIONS */

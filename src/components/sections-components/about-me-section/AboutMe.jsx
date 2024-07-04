@@ -4,7 +4,7 @@ import styled from "styled-components";
 import TransitionRoute from "../../global-components/route-transition/TransitionRoute";
 // GOBACK HOME BUTTOTN COMPONENT
 import GoBack from "../../global-components/go-back-button/GoBack";
-import PictureDev from "/assets/image/about-me-image/juanquez-neon-effect-2.png";
+import PictureDev from "/assets/image/about-me-image/juanquez-neon-effect-2.webp";
 
 const AboutMe = () => {
   useEffect(() => {

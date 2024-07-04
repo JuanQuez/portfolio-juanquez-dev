@@ -3,7 +3,6 @@ import styled from "styled-components";
 import { ReactSVG } from "react-svg";
 import { Link } from "react-router-dom";
 import InstagramIcon from "/public/assets/svg/header-svg/navbar-svg/instagram_static_pixel_icon_juan_quez.svg";
-import InstagramIconFrame from "/public/assets/svg/header-svg/navbar-svg/instagram_hover_pixel_icon_juan_quez.svg";
 import IconMenu from "/public/assets/svg/header-svg/navbar-svg/Interface-Essential-Navigation-Menu-3--Streamline-Pixel.svg";
 import {
   playClickSound,
@@ -171,10 +170,6 @@ const NavbarBox = styled.section`
     &:hover {
       scale: 1.05;
     }
-  }
-
-  .icon_instagram:hover {
-    content: url(${InstagramIconFrame});
   }
 
   //* <-- RESPONSIVE DESING --> //
