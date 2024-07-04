@@ -173,51 +173,30 @@ textarea {
 @font-face {
   font-family: Star;
   src: url(/public/assets/font/title/G7StarForce.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: Digi;
   src: url(/public/assets/font/title/PixelDigivolve.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: ReGame;
   src: url(/public/assets/font/title/RetroGaming.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: Basis;
   src: url(/public/assets/font/text/basis33.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {  
   font-family: Silk;
   src: url(/public/assets/font/text/Silkscreen.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: Kemco;
   src: url(/public/assets/font/title/KemcoPixelBold.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 @font-face {
   font-family: Rygar;
   src: url(/public/assets/font/button/Rygarde.woff2) format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
 }
 
 /* SOURCE ANIMATIONS */
