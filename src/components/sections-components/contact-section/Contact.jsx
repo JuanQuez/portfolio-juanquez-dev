@@ -11,11 +11,8 @@ import ValidIcon from "/assets/svg/contact-svg/input-icon-pixel/mood-happy-svgre
 import InvalidIcon from "/assets/svg/contact-svg/input-icon-pixel/mood-sad-svgrepo-com.svg";
 import LineIcon from "/assets/svg/contact-svg/subtract.svg";
 import LinkedinIcon from "/assets/svg/contact-svg/social-icon-pixel/linkedin-icon/linkedin_static_pixel_icon_juan_quez.svg";
-import LinkedinIconFrame from "/assets/svg/contact-svg/social-icon-pixel/linkedin-icon/linkedin_hover_pixel_icon_juan_quez.svg";
 import InstagramIcon from "/assets/svg/contact-svg/social-icon-pixel/instagram-icon/instagram_static_pixel_icon_juan_quez.svg";
-import InstagramIconFrame from "/assets/svg/contact-svg/social-icon-pixel/instagram-icon/instagram_hover_pixel_icon_juan_quez.svg";
 import DiscordIcon from "/assets/svg/contact-svg/social-icon-pixel/discord-icon/discord_static_pixel_icon_juan_quez.svg";
-import DiscordIconFrame from "/assets/svg/contact-svg/social-icon-pixel/discord-icon/discord_hover_pixel_icon_juan_quez.svg";
 // CUSTOM BUTTON COMPONENT
 import ButtonPixelArt from "../../global-components/button-style/ButtonPixel";
 // SOUNDTRACKS

@@ -8,7 +8,7 @@ import TransitionRoute from "../../global-components/route-transition/Transition
 import Navbar from "./Navbar";
 // IMPORT ASSETS RESOURCES
 import DevPicture from "/assets/image/home-image/juanquez-neon-effect.webp";
-import LogoNeon from "/assets/svg/header-svg/home-svg/logotype-neon edit.webp";
+import LogoNeon from "/assets/svg/header-svg/home-svg/logotype-neon-edit.svg";
 import IconContact from "/assets/svg/home-svg/icon-contact-pixel.svg";
 import IconDown from "/assets/svg/home-svg/icon-donwload-pixel.svg";
 // IMPORT BUTTON CUSTOM STYLE
