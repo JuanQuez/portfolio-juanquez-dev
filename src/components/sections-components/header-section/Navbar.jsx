@@ -77,7 +77,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/juan_cho.jpg/"
+              href="https://www.instagram.com/juan_quez_/"
               target="_blank"
               rel="noopener noreferrer"
             >
