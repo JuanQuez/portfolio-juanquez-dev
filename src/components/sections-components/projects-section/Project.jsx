@@ -66,7 +66,7 @@ const Project = () => {
               <h3>bienvenido</h3>
               <p>
                 En esta sección, encontrarás una selección de mis proyectos más
-                destacados (sin contar colaborativos), donde he aplicado
+                destacados, donde he aplicado
                 diversas tecnologías, habilidades para resolver problemas y
                 crear soluciones innovadoras. Cada proyecto incluye una
                 descripción detallada, las tecnologías utilizadas y el enlace al
