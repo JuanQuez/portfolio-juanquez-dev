@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import styled from "styled-components";
-import Loader from "./Loader";
 
 const Wrapper = styled.div`
   height: 100dvh;
@@ -122,14 +121,10 @@ const WrapperLoader = () => {
         </h2>
         <h3>developer</h3>
       </div>
-      {loading ? (
-        <Loader />
-      ) : (
         <>
           <h3 className="dekstop-title">pulsa una tecla para iniciar</h3>
           <h3 className="mobile-title">Toca la pantalla para iniciar</h3>
         </>
-      )}
     </Wrapper>
   );
 };
