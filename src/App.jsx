@@ -16,7 +16,6 @@ import Skill from "./components/sections-components/skills-section/Skill";
 import Project from "./components/sections-components/projects-section/Project";
 import Review from "./components/sections-components/reviews-section/Review";
 import Contact from "./components/sections-components/contact-section/Contact";
-import GoBack from "./components/global-components/go-back-button/GoBack";
 
 function App() {
   const [windowLoad, setWindowLoad] = useState(true);
@@ -28,15 +27,11 @@ function App() {
   };
 
   React.useEffect(() => {
-    const timer = setTimeout(() => {
       if (window.innerWidth >= 1024) {
         window.addEventListener("keydown", handleyPressTouch);
       } else {
         window.addEventListener("touchstart", handleyPressTouch);
       }
-    }, 5000);
-
-    return () => clearTimeout(timer);
   }, []);
 
   return (

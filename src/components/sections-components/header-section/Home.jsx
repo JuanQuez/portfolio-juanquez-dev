@@ -9,8 +9,8 @@ import Navbar from "./Navbar";
 // IMPORT ASSETS RESOURCES
 import DevPicture from "/assets/image/home-image/juanquez-neon-effect.webp";
 import LogoNeon from "/assets/svg/header-svg/home-svg/logotype-neon-edit.svg";
-import IconContact from "/assets/svg/home-svg/icon-contact-pixel.svg";
-import IconDown from "/assets/svg/home-svg/icon-donwload-pixel.svg";
+import IconContact from "/public/assets/svg/header-svg/home-svg/icon-contact-pixel.svg";
+import IconDown from "/public/assets/svg/header-svg/home-svg/icon-donwload-pixel.svg";
 // IMPORT BUTTON CUSTOM STYLE
 import ButtonPixelArt from "../../global-components/button-style/ButtonPixel";
 // IMPORT SOUNDS ELEMENTS

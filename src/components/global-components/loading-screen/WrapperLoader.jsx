@@ -1,4 +1,3 @@
-import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
@@ -103,16 +102,6 @@ const Wrapper = styled.div`
 `;
 
 const WrapperLoader = () => {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 5000); // 5 seconds Loader
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <Wrapper>
       <div className="text_box">

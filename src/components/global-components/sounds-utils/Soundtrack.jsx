@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import BackgroundSongMp3 from "/assets/audio/general-song/mp3/jupiter-song.mp3";
 import BackgroundSongOgg from "/assets/audio/general-song/ogg/jupiter-song.ogg";
@@ -15,9 +15,11 @@ const Soundtrack = () => {
 
   useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.volume = 0.5;
+      audioRef.current.volume = 0.3;
     }
   }, []);
+
+
 
   return (
     <Song>

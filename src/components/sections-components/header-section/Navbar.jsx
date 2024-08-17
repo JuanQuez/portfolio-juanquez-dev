@@ -1,15 +1,31 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import { ReactSVG } from "react-svg";
 import { Link } from "react-router-dom";
 import InstagramIcon from "/public/assets/svg/header-svg/navbar-svg/instagram_static_pixel_icon_juan_quez.svg";
 import IconMenu from "/public/assets/svg/header-svg/navbar-svg/Interface-Essential-Navigation-Menu-3--Streamline-Pixel.svg";
+import IconMute from "/public/assets/svg/header-svg/navbar-svg/mute-audio-play.svg";
+import IconSongOn from "/public/assets/svg/header-svg/navbar-svg/sound-on-music.svg";
 import {
   playClickSound,
   playHoverSound,
 } from "../../global-components/sounds-utils/Soundtrack";
 
 const Navbar = () => {
+  const [isPlaying, setIsPlaying ] = useState(true);
+
+
+  const togglePlayPause = () => {
+    if (audioRef.current) {
+      if (isPlaying) {
+        audioRef.current.pause();
+      } else {
+        audioRef.current.play();
+      }
+      setIsPlaying(!isPlaying);
+    }
+  };
+
   return (
     <NavbarBox>
       <span className="icon_logo">quez</span>
@@ -76,6 +92,16 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
+            <a>
+              <ReactSVG
+                className="icon_song"
+                onMouseEnter={playHoverSound}
+                onClick={togglePlayPause}
+                src={IconSongOn}
+              />
+            </a>
+          </li>
+          <li>
             <a
               href="https://www.instagram.com/juan_quez_/"
               target="_blank"
@@ -108,7 +134,7 @@ const NavbarBox = styled.section`
   &,
   .link_nav_box {
     display: flex;
-    gap: 2rem;
+    gap: 2.5rem;
   }
 
   .btn_menu_nav,
@@ -163,6 +189,11 @@ const NavbarBox = styled.section`
         }
       }
     }
+  }
+
+  .icon_song {
+    width: clamp(2rem, 2vw, 3.1rem);
+    color: var(--color-white);
   }
 
   .icon_instagram {
