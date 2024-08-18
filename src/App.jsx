@@ -17,6 +17,7 @@ import Project from "./components/sections-components/projects-section/Project";
 import Review from "./components/sections-components/reviews-section/Review";
 import Contact from "./components/sections-components/contact-section/Contact";
 
+
 function App() {
   const [windowLoad, setWindowLoad] = useState(true);
 
