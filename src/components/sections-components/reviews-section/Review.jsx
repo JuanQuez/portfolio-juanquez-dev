@@ -24,7 +24,7 @@ const Review = () => {
           space-between="100"
           speed="5000"
           loop="true"
-          autoplay-delay="4000"
+          autoplay-delay="5000"
           pagination="enabled"
           breakpoints={JSON.stringify({
             1: {

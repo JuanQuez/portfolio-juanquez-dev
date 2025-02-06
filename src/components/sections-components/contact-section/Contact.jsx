@@ -46,7 +46,7 @@ const Contact = () => {
         (error) => {
           console.log(error.text);
           setSuccess(false);
-        }
+        } 
       );
   };
   return (
