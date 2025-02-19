@@ -73,6 +73,10 @@
       {
         "logo": "/assets/svg/skill-svg/window-items/tech-skills/sequelize-logo.svg",
         "name": "sequelize"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/figma-icon.svg",
+        "name": "figma"
       }
     ]
   },

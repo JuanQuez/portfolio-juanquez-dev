@@ -33,8 +33,8 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_5r1gh5x",
-        "template_lvvce3l",
+        "service_uev8zjm",
+        "template_03pqtqg",
         ref.current,
         "Lc-NAum7t-G2cfJoU"
       )
@@ -77,7 +77,7 @@ const Contact = () => {
             >
               enviar
             </ButtonPixelArt>
-            {success && <p>¡Recibí tu mensaje! Te responderé pronto.</p>}
+            {success && <p className="message-sucess">¡Recibí tu mensaje! Te responderé pronto.</p>}
           </form>
           <div className="division_box">
             <ReactSVG src={LineIcon} />
@@ -200,9 +200,11 @@ const ContactBox = styled.section`
           -webkit-text-stroke-color: var(--color-white);
         }
 
-        p {
+
+        .message-sucess {
           text-align: center;
           font-size: clamp(1.5rem, 2vw, 2.2rem);
+          animation: var(--animation-text-in) linear 1s;
         }
 
         input,
