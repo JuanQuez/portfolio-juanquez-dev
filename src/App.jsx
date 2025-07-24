@@ -16,6 +16,7 @@ import Skill from "./components/sections-components/skills-section/Skill";
 import Project from "./components/sections-components/projects-section/Project";
 import Review from "./components/sections-components/reviews-section/Review";
 import Contact from "./components/sections-components/contact-section/Contact";
+import CommingSoon from "./components/maintenance-page/CommingSoon";
 
 
 function App() {
@@ -37,7 +38,8 @@ function App() {
 
   return (
     <>
-      {windowLoad ? (
+      <CommingSoon />
+{/*       {windowLoad ? (
         <WrapperLoader />
       ) : (
         <HashRouter>
@@ -55,7 +57,7 @@ function App() {
           </AnimatePresence>
         </HashRouter>
       )}
-    </>
+ */}    </>
   );
 }
 
