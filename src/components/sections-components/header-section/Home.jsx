@@ -36,7 +36,7 @@ const Home = () => {
               mis ideas.
             </p>
             <div className="buttons_box">
-              <a href="/assets/pdf/cv-juan-bohorquez-spanish.pdf" download>
+              <a href="/assets/pdf/cv-juan-bohorquez-dev-spanish.pdf" download>
                 <ButtonPixelArt
                   onMouseEnter={playHoverSound}
                   onClick={playClickSound}
@@ -57,7 +57,6 @@ const Home = () => {
             </div>
           </div>
           <div className="picture_box">
-            <img src={DevPicture} alt="picture-dev" />
             <ReactSVG src={LogoNeon} />
           </div>
         </div>
@@ -168,31 +167,17 @@ const HomeBox = styled.header`
 
       .picture_box {
         height: auto;
-        position: relative;
-        justify-content: end;
-
-        img {
-          width: clamp(25rem, 38vw, 55rem);
-          mask-image: radial-gradient(
-            ellipse at 70% 35%,
-            black 10%,
-            transparent 72%
-          );
-        }
+        justify-content: center;
+        align-items: center;
 
         svg {
-          top: 18%;
-          left: 55%;
-          width: clamp(7rem, 15vw, 23rem);
-          position: absolute;
+          width: clamp(7rem, 150vw, 40rem);
 
-          animation: iconLevitate 3s infinite alternate ease-in;
+          animation: iconLevitate 3s infinite alternate ease;
 
           @keyframes iconLevitate {
-            0%,
-            100% {
-              opacity: 0.8;
-              transform: rotate(-9deg);
+            0% {
+              opacity: 1;
             }
 
             50% {
@@ -200,7 +185,8 @@ const HomeBox = styled.header`
             }
 
             100% {
-              transform: translateY(-1rem) rotate(-9deg);
+              opacity: 1;
+              transform: translateY(-1rem);
             }
           }
         }

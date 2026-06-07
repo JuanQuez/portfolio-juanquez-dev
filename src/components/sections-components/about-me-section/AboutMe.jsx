@@ -11,10 +11,8 @@ const AboutMe = () => {
     const containerText = document.getElementById("writingText");
 
     const textDocument = `Juan Bohórquez, más conocido como Juan Quez, es un apasionado
-    desarrollador colombiano de 20 años que se destaca por su enfoque
-    proactivo y su fascinación por el liderazgo dentro de equipos de
-    trabajo. Su destreza ha sido fundamental para fomentar la
-    colaboración y la eficiencia en proyectos de desarrollo.
+    desarrollador colombiano que se destaca por su enfoque
+    creativo y su fascinación por arte digital. Su destreza ha sido fundamental para la eficiencia en proyectos de desarrollo.
     
     Intrigado por el funcionamiento interno de las cosas, Juan se
     considera a sí mismo un eterno investigador, siempre en busca de
@@ -50,9 +48,9 @@ const AboutMe = () => {
     <AboutMeBox>
       <GoBack />
       <div className="main_content-box">
-        <div className="picture_box">
+{/*         <div className="picture_box">
           <img src={PictureDev} alt="juanquez-picture" />
-        </div>
+        </div> */}
         <div className="text_box">
           <h3>¿quien es juan quez?</h3>
           <p id="writingText"></p>
@@ -84,9 +82,8 @@ const AboutMeBox = styled.section`
     width: 100%;
     max-width: 140rem;
     display: grid;
-    grid-template-columns: 1fr 1.4fr;
     grid-gap: 1rem;
-    padding: 0 5%;
+    padding: 10rem 20rem;
 
     .text_box {
       flex-direction: column;

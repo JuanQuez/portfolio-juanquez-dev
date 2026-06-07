@@ -18,7 +18,6 @@ import Review from "./components/sections-components/reviews-section/Review";
 import Contact from "./components/sections-components/contact-section/Contact";
 import CommingSoon from "./components/maintenance-page/CommingSoon";
 
-
 function App() {
   const [windowLoad, setWindowLoad] = useState(true);
 
@@ -29,17 +28,19 @@ function App() {
   };
 
   React.useEffect(() => {
-      if (window.innerWidth >= 1024) {
-        window.addEventListener("keydown", handleyPressTouch);
-      } else {
-        window.addEventListener("touchstart", handleyPressTouch);
-      }
+    if (window.innerWidth >= 1024) {
+      window.addEventListener("keydown", handleyPressTouch);
+    } else {
+      window.addEventListener("touchstart", handleyPressTouch);
+    }
   }, []);
+
+  const name = "App";
 
   return (
     <>
-      <CommingSoon />
-{/*       {windowLoad ? (
+{/*       <CommingSoon /> */}
+      {windowLoad ? (
         <WrapperLoader />
       ) : (
         <HashRouter>
@@ -57,7 +58,7 @@ function App() {
           </AnimatePresence>
         </HashRouter>
       )}
- */}    </>
+    </>
   );
 }
 

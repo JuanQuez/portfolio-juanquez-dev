@@ -20,11 +20,11 @@
       },
       {
         "logo": "/assets/svg/skill-svg/window-items/tech-skills/next.js-logo.svg",
-        "name": "next"
+        "name": "nextJS"
       },
       {
-        "logo": "/assets/svg/skill-svg/window-items/tech-skills/java-logo.svg",
-        "name": "java"
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/csharp-icon.svg",
+        "name": "C#"
       },
       {
         "logo": "/assets/svg/skill-svg/window-items/tech-skills/styled-components-logo.svg",
@@ -60,7 +60,7 @@
       },
       {
         "logo": "/assets/svg/skill-svg/window-items/tech-skills/node-js-logo.svg",
-        "name": "node js"
+        "name": "nodeJS"
       },
       {
         "logo": "/assets/svg/skill-svg/window-items/tech-skills/postgresql-logo.svg",
@@ -77,6 +77,30 @@
       {
         "logo": "/assets/svg/skill-svg/window-items/tech-skills/figma-icon.svg",
         "name": "figma"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/dotnet-icon.svg",
+        "name": ".NET Maui"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/mongodb-icon.svg",
+        "name": "MongoDB"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/nestjs-icon.svg",
+        "name": "NestJS"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/nuxtjs-icon.svg",
+        "name": "NuxtJS"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/vuejs-icon.svg",
+        "name": "VueJS"
+      },
+      {
+        "logo": "/assets/svg/skill-svg/window-items/tech-skills/prisma-icon.svg",
+        "name": "Prisma"
       }
     ]
   },
