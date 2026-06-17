@@ -35,7 +35,7 @@ const Project = () => {
           initial-slide="0"
           keyboard="true"
           mousewheel="false"
-          loop="true"
+          loop="false"
           navigation-next-el=".custom_next_btn"
           navigation-prev-el=".custom_prev_btn"
           pagination="enabled"
