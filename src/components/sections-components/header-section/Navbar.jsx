@@ -4,6 +4,7 @@ import { ReactSVG } from "react-svg";
 import { Link } from "react-router-dom";
 import InstagramIcon from "/public/assets/svg/header-svg/navbar-svg/instagram_static_pixel_icon_juan_quez.svg";
 import IconMenu from "/public/assets/svg/header-svg/navbar-svg/Interface-Essential-Navigation-Menu-3--Streamline-Pixel.svg";
+import GithubIcon from "/assets/image/home-image/github_pixelart.png";
 
 import {
   playClickSound,
@@ -78,7 +79,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href="https://www.instagram.com/juan_quez_/"
+              href="https://www.instagram.com/juz.vel_/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -87,6 +88,21 @@ const Navbar = () => {
                 onMouseEnter={playHoverSound}
                 onClick={playClickSound}
                 src={InstagramIcon}
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/JuanQuez"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                className="icon_github"
+                onMouseEnter={playHoverSound}
+                onClick={playClickSound}
+                src={GithubIcon}
+                alt="github"
               />
             </a>
           </li>
@@ -168,7 +184,8 @@ const NavbarBox = styled.section`
 
   
 
-  .icon_instagram {
+  .icon_instagram,
+  .icon_github {
     width: clamp(2.1rem, 2.8vw, 3.1rem);
     &:hover {
       scale: 1.05;

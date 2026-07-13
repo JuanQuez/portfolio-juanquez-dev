@@ -36,7 +36,7 @@ const Home = () => {
               mis ideas.
             </p>
             <div className="buttons_box">
-              <a href="/assets/pdf/cv-juan-bohorquez-dev-spanish.pdf" download>
+              <a href="/assets/pdf/cv-juan-bohorquez-dev-med.pdf" download>
                 <ButtonPixelArt
                   onMouseEnter={playHoverSound}
                   onClick={playClickSound}
